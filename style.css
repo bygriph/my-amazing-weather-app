@@ -1,45 +1,72 @@
-.container{
-    max-width: 100%;
-    width: 859px;
-    height: 536px;
-    background-color: #F9F6E8;
-    font-family: "JetBrains Mono", monospace;;
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px 60px;
+  background-color: #f9f6e8;
+  font-family: "JetBrains Mono", monospace;
 }
 
-.forecast{
-    margin: 0 auto; 
-    margin-bottom: 10px;
-
+#search-city-input {
+  background-color: #ffcc1794;
+  color: #fffffd;
+  border: none;
+  padding: 15px;
+  width: 75%;
+  margin: 5px;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
-.daily-forecast-container{
-    padding: 10px 15px;
-   
+input::placeholder {
+  color: #fffffd;
 }
 
-.todays-sun{
-    position: relative;
-    top: -50px;
+.search-button {
+  background-color: #ffcc17;
+  border: solid #ffcc17;
+  color: #fffffd;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 1.2;
+  border-radius: 10px;
 }
 
-.precipitation{
-    color: rgba(255, 204, 23, 0.58);
+.todays-sun {
+  position: relative;
+  top: -50px;
+  left: -40px;
 }
 
-h1,h2,h3, p{
-    color: #4D53E8;
+.temperature {
+  position: relative;
+  left: -40px;
 }
 
-
-h1{ font-size: 54px;}
-
-form{
-    max-width: 75%;
-    padding: 15px 5px;
-    margin: 0 auto;
+.precipitation {
+  color: rgba(255, 204, 23, 0.58);
 }
 
-ul{
-    list-style: none;
-    padding-left: 0;
+.forecast {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.current-city {
+  margin-top: 15px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #4d53e8;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }
