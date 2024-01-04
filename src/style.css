@@ -37,9 +37,19 @@ input::placeholder {
   left: -40px;
 }
 
-.temperature {
+.current-temperature {
   position: relative;
+  font-size: 54px;
   left: -40px;
+  color: #4d53e8;
+}
+
+.current-temperature-unit {
+  position: relative;
+  font-size: 32px;
+  top: -16px;
+  left: -34px;
+  color: #4d53e8;
 }
 
 .precipitation {
@@ -55,25 +65,12 @@ input::placeholder {
   margin-top: 15px;
 }
 
-.current-temperature-unit {
-  position: relative;
-  font-size: 26px;
-  top: -75px;
-  left: 54px;
-  color: #4d53e8;
-}
-
-
-h1,
 h2,
 h3,
 p {
   color: #4d53e8;
 }
 
-h1 {
-  font-size: 54px;
-}
 
 ul {
   list-style: none;
