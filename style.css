@@ -55,6 +55,15 @@ input::placeholder {
   margin-top: 15px;
 }
 
+.current-temperature-unit {
+  position: relative;
+  font-size: 26px;
+  top: -75px;
+  left: 54px;
+  color: #4d53e8;
+}
+
+
 h1,
 h2,
 h3,
