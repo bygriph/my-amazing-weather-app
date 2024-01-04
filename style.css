@@ -1,0 +1,45 @@
+.container{
+    max-width: 100%;
+    width: 859px;
+    height: 536px;
+    background-color: #F9F6E8;
+    font-family: "JetBrains Mono", monospace;;
+}
+
+.forecast{
+    margin: 0 auto; 
+    margin-bottom: 10px;
+
+}
+
+.daily-forecast-container{
+    padding: 10px 15px;
+   
+}
+
+.todays-sun{
+    position: relative;
+    top: -50px;
+}
+
+.precipitation{
+    color: rgba(255, 204, 23, 0.58);
+}
+
+h1,h2,h3, p{
+    color: #4D53E8;
+}
+
+
+h1{ font-size: 54px;}
+
+form{
+    max-width: 75%;
+    padding: 15px 5px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
