@@ -21,6 +21,10 @@ input::placeholder {
   color: #fffffd;
 }
 
+.city-input{
+  font-size: 54px;
+}
+
 .search-button {
   background-color: #ffcc17;
   border: solid #ffcc17;
@@ -65,6 +69,7 @@ input::placeholder {
   margin-top: 15px;
 }
 
+h1,
 h2,
 h3,
 p {
